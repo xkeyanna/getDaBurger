@@ -2,7 +2,7 @@
 	
 	<div class="row">
 	    <div class="center col-sm-12">
-			<img src="assets/img/burger.png" alt="Eat-Da-Burger App">
+			<img src="assets/img/burger.jpg" alt="Burger" style="height: 80px; width:auto; margin-top:40px;">
 	        <h1>Eat-Da-Burger</h1>
 	        <p></p>
 	    </div>
@@ -24,7 +24,7 @@
 
 			        <form action="/{{this.id}}?_method=PUT" method="POST">
 			          <input type="hidden" name="devoured" value="true">
-			          <button class="btn-primary" type="submit">Devour It!</button>
+			          <button class="btn-primary" type="submit">Chow down on it!</button>
 			        </form>
 
 			      </li>
@@ -36,7 +36,7 @@
 
 	    <div class="col-sm-6">
 
-			<h2>Burgers That Have Been Eaten!</h2>
+			<h2>Burgers That Have Been Devoured!</h2>
 			
 			  {{#each burgers}}
 			    {{#if this.devoured}}
