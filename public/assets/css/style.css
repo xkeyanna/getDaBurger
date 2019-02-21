@@ -1,89 +1,93 @@
-html {
-    background-color: #FFC04C;
-}
-
-body {
-    width: 75%;
-   margin: 0 auto; 
-
-   display: flex;
-   min-height: 100vh;
-   flex-direction: column;
-   background-color: white;
-}
-
-#cute_burger {
+li {
+    padding: 15px;
+    margin: 15px;
+    background: #ffffff;
+    list-style: none;
+  }
+  
+  ul {
+      list-style: none;
+  }
+  
+  .label {
+    font-weight: bold;
+  }
+  
+  .center {
+      text-align: center;
+  }
+  
+  .right {
+      align-content: right;
+  }
+  
+  img {
+      align-content: center;
+  }
+  
+  h1 {
+      text-align: center;
+      text-shadow: 2px 2px #ffffff;
+  }
+  
+  h2 {
+      text-align: center;
+      text-shadow: 2px 2px #ffffff;
+  }
+  
+  .create-update-form {
+    padding: 25px;
+    margin: 25px;
+    background: #eceff1;
+    border: 1px black solid;
+  }
+  
+  .form-group {
+    margin-bottom: 25px;
+  }
+  
+  .btn-primary {
+      border-radius: 15px;
+  }
+  
+  html, body{
+      height: 100%;
+  }
+  body { 
+      background-image: url(http://glimpsesofcharleston.com/wp-content/uploads/2015/02/french-fries17908686_lrg.jpg) ;
+      background-position: center center;
+      background-repeat:  no-repeat;
+      background-attachment: fixed;
+      background-size:  cover;
+      background-color: #000000;  
+  }
+  
+  div, body{
+      margin: 0;
+      padding: 0;
+      font-family: exo, sans-serif;
+      color: black;
+  }
+  
+  .footer {
+      text-align: center;
+      text-shadow: 1px 1px #ffffff;
+  }
+  .wrapper {
+      height: 100%; 
+      width: 100%; 
+      }
+  
+  .message {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 100%; 
+    height:45%;
+    bottom: 0; 
     display: block;
-   margin: auto;
-}
-
-h1 {
-    text-align: center;
-    font-family: 'Fontdiner Swanky', cursive;
-    font-size: 65px;
-    margin: 50px;
-}
-
-.burgerAvailable {
-    font-family: 'Crafty Girls', cursive;
-    font-weight: normal;
-    font-size: 20px;
-    text-align: center;
-
-    border-radius: 25px;
-    width: 100%;
-    margin: 10px;
-    padding: 10px;
-    background-color: #b7ffc2;
-    border: none;
-}
-
-.burgerAvailable:hover {
-    background-color: #81ff94;
-}
-
-.burgerEaten {
-    font-family: 'Crafty Girls', cursive;
-    font-weight: normal;
-    font-size: 20px;
-    text-align: center;
-
-    border-radius: 25px;
-    margin: 10px;
-    padding: 10px;
-    background-color: #ffd1c9;
-}
-
-h2 {
-     text-align: center;
-    font-family: 'Fontdiner Swanky', cursive;
-    font-size: 40px;
-    margin: 50px;
-}
-
-.formContainer {
-    background-color: orange;
-}
-
-.addBurgerButton {
-    font-family: 'Crafty Girls', cursive;
-    font-weight: normal;
-    font-size: 20px;
-    text-align: center;
-
-    border-radius: 25px;
-    width: 100%;
-    margin: 0;
-    padding: 10px;
-    background-color: #FFC04C;
-    border: none;
-}
-
-.addBurgerButton:active {
-   background-color: #FFC04C;
-}
-
-.burgerFooter {
-   background-color: #FFC04C;
-   padding: 20px 0;
-}
+    position: absolute;
+    background-color: rgba(0,0,0,0.6);
+    color: #fff;
+    padding: 0.5em;
+  }
